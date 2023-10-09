@@ -1,0 +1,43 @@
+.dashboard-left {
+  width: 250px;
+  height: 821px;
+  flex-shrink: 0;
+  background: #fec12029;
+}
+
+.dash-logo {
+  color:#fff;
+  font-family: Baloo Thambi 2;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 100px;
+}
+
+.dash-logo-main {
+  padding-left: 80px;
+  padding-top: 20px;
+}
+
+.menus .ant-menu-item {
+    margin: 10px 0px;
+}
+
+.dashboard-main {
+  background: linear-gradient(180deg, #541c5b 0%, #985810 100%);
+}
+
+
+.menus .ant-menu-vertical {
+  background-color: transparent;
+}
+
+.menus .ant-menu-item-selected{
+    background-color: none !important;
+}
+
+.menus {
+  background: transparent;
+  color: #fff;
+}

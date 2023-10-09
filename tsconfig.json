@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",               // Choose your desired ECMAScript target version
+    "module": "ESNext",               // Choose your desired module system (e.g., "CommonJS" or "ESNext")
+    "jsx": "react",                  // Specify JSX mode as "react"
+    "strict": true,                  // Enable strict type checking
+   "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node", // Add this line
+    "esModuleInterop": true,          // Enable interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,             // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names (for case-sensitive file systems)
+    "allowSyntheticDefaultImports": true,    // Allow default imports from modules with no default export
+    "noUnusedLocals": true,           // Report unused local variables
+    "noUnusedParameters": true,       // Report unused parameters
+    "noImplicitReturns": true,        // Report error when not all code paths return a value
+    "strictNullChecks": true,         // Enable strict null checks
+    "baseUrl": "./src",               // Set the base directory for resolving non-relative module names
+    "paths": {
+      "*": ["types/*"]                // Define path mappings for custom type definitions
+      
+    }
+  },
+  "include": [
+    "src/**/*.tsx",                  // Include TypeScript and TSX files in the "src" directory
+    "src/**/*.ts"                    // Include TypeScript files in the "src" directory
+, "src/App.tsx", "src/index.js"  ],
+  "exclude": [
+    "node_modules"                   // Exclude the "node_modules" directory
+  ]
+}
